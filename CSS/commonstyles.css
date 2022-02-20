@@ -1,6 +1,5 @@
-.page-container {
-	width: 80%;
-	margin: 5rem auto;
+.margin-l {
+	margin: 3rem;
 }
 
 .card-layout {
@@ -14,4 +13,29 @@
 	height: 12rem;
 	width: 100%;
 	object-fit: cover;
+}
+
+.question-card {
+	max-width: 40rem;
+}
+
+.option-selected {
+	background-color: var(--primary-color);
+	color: var(--ternary-color);
+}
+
+.option-wrong {
+	background-color: var(--red);
+	color: var(--secondary-color);
+	border: none;
+}
+
+.option-correct {
+	background-color: var(--green);
+	color: var(--secondary-color);
+	border: none;
+}
+
+.results button {
+	pointer-events: none;
 }
